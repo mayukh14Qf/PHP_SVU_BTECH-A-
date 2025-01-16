@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 7 Form</title>
+</head>
+<body>
+    <form action="valid.php" method="get">
+
+        <label for="field1">Enter A Number : </label>
+        <input type="number" name="number[]" id="field1">
+        <br>
+        <label for="field2">Enter A Number : </label>
+        <input type="number" name="number[]" id="field2">
+        <br>
+        <label for="field3">Enter A Number : </label>
+        <input type="number" name="number[]" id="field3">
+
+        <fieldset>
+            <legend>
+                skills
+            </legend>
+
+            <input type="checkbox" name="skills[]" value="HTML" id="skill1">
+            <label for="skill1">HTML</label>
+
+            <input type="checkbox" name="skills[]" value="CSS" id="skill2">
+            <label for="skill2">CSS</label>
+
+            <input type="checkbox" name="skills[]" value="JS" id="skill3">
+            <label for="skill3">JS</label>
+
+
+        </fieldset>
+
+
+        <br><br>
+        <input type="submit" value="Submit" name="submit">
+
+    </form>
+</body>
+</html>
